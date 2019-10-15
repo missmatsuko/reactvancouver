@@ -15,12 +15,12 @@ import background from '../assets/background.jpg'
 import Img from 'gatsby-image'
 
 const styles = {
-  // TODO: center background
   hero: css({
     minHeight: '100vh',
     backgroundImage: `url(${background})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
+    backgroundPosition: 'center',
   }),
   overlay: css({
     background: Colors.gradient.dark,
